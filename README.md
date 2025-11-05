@@ -8,7 +8,7 @@ This project demonstrates the design and simulation of a 4-bit R-2R Digital-to-A
 ## Project Summary  
 - **Title:** Design & Implementation of a 4-bit R-2R DAC using a Two-Stage Op-Amp  
 - **Tool Used:** Cadence Virtuoso  
-- **Technology:** 180 nm CMOS (gpdk180)  
+- **Technology:** 90 nm CMOS (gpdk90)  
 - **Objective:** Develop a compact, low-power, high-gain mixed-signal circuit that converts digital bits into proportional analog voltages.  
 - **Domain:** Analog / Mixed-Signal VLSI Design
 
