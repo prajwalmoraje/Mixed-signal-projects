@@ -26,12 +26,9 @@ Together, they deliver a stable and linear analog output suitable for mixed-sign
 
 ## Operation Principle  
 The DAC works based on voltage division and current summation through the R-2R ladder. The equation for output is:
+```math
+V_{out} = V_{ref} \cdot \sum_{i=0}^{3} \frac{b_i}{2^{i+1}}
 
-\[
-V_{\text{out}} = V_{\text{ref}} \times \left(\frac{b_3}{2} + \frac{b_2}{4} + \frac{b_1}{8} + \frac{b_0}{16} \right)
-\]
-
-where \(b_3\)–\(b_0\) are the digital input bits (MSB to LSB). The op-amp translates the summed current into a proportional analog voltage.
 
 
 
