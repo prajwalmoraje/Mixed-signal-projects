@@ -26,7 +26,7 @@ Together, they deliver a stable and linear analog output suitable for mixed-sign
 
 ## Operation Principle  
 The DAC works based on voltage division and current summation through the R-2R ladder. The equation for output is:
-```math
+
 V_{out} = V_{ref} \cdot \sum_{i=0}^{3} \frac{b_i}{2^{i+1}}
 
 
