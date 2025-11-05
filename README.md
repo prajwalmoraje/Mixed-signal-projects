@@ -33,14 +33,16 @@ V_{\text{out}} = V_{\text{ref}} \times \left(\frac{b_3}{2} + \frac{b_2}{4} + \fr
 
 where \(b_3\)–\(b_0\) are the digital input bits (MSB to LSB). The op-amp translates the summed current into a proportional analog voltage.
 
----
-### R-2R DAC Schematic
+## Simulation Results
+
+### R-2R Ladder DAC Schematic
 ![R-2R DAC Schematic](./R-2R%20Ladder%20DAC%20Schematic.png)
+
 ### Test Bench Setup
 ![Test Bench](./Test%20Bench%20Setup.png)
+
 ### Transient Output Waveform
 ![Transient Output](./Transient%20Analysis%20of%20dac.png)
-
 
 ## Design Methodology  
 ### 1. Flow in Cadence Virtuoso  
