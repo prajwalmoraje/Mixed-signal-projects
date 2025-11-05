@@ -40,9 +40,9 @@ where \(b_3\)–\(b_0\) are the digital input bits (MSB to LSB). The op-amp tran
 
 ### Test Bench Setup
 ![Test Bench](./Test%20Bench%20Setup.png)
-
 ### Transient Output Waveform
 ![Transient Output](./Transient%20Analysis%20of%20dac.png)
+
 
 ## Design Methodology  
 ### 1. Flow in Cadence Virtuoso  
